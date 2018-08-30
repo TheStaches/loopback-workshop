@@ -6,13 +6,13 @@ module.exports = {
     'connector': 'memory',
   },
   'MongoDB': {
-    'host': '',
-    'port': 0,
+    'host': 'ds237832.mlab.com',
+    'port': 37832,
     'url': '',
-    'database': '',
-    'password': '',
+    'database': MONGDB_USERNAME,
+    'username': MONGDB_USERNAME,
+    'password': MONGODB_PASSWORD,
     'name': 'MongoDB',
-    'user': '',
     'connector': 'mongodb',
   },
 };
